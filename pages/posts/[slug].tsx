@@ -35,7 +35,11 @@ export default function Post({ post, morePosts, preview }: Props) {
             <article className="mb-32">
               <Head>
                 <title>{title}</title>
-                {post.ogImage?.url ? <meta property="og:image" content={post.ogImage.url} /> : null}
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content={post.title} />
+                <meta property="og:description" content={post.excerpt} />
+                {post.ogImage?.url ? <meta property="og:image" content={`https://blog.biblys.fr${post.ogImage.url}`} /> : null}
+                <meta property="og:author" content={post.author.name} />
               </Head>
               <PostHeader
                 title={post.title}
