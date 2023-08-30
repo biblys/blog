@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/clement-latzarus.jpeg'
 ogImage:
   url: '/assets/blog/entree-en-vigueur-de-la-loi-darcos/cover.jpg'
+published: true
 ---
 
 **La loi Darcos, rendant obligatoire un tarif minimal de 3,00 € de frais de port pour le livre, entrera en vigueur le 7 octobre 2023.**
