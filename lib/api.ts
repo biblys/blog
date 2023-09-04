@@ -42,6 +42,7 @@ export function getAllPosts(fields: string[] = []) {
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
     .filter(post => post.published)
+    .filter(post => Date.parse(post.date) <= Date.now())
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
   return posts
 }
