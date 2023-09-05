@@ -37,12 +37,15 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   return items
 }
 
-export function getPublishedPosts(fields: string[] = []) {
+export function getAllPosts(fields: string[] = []) {
   const slugs = getPostSlugs()
-  const posts = slugs
+  return slugs
     .map((slug) => getPostBySlug(slug, fields))
     .filter(post => post.published)
-    .filter(post => Date.parse(post.date) <= Date.now())
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  return posts
+}
+
+export function getPublishedPosts(fields: string[] = []) {
+  return getAllPosts(fields)
+    .filter(post => Date.parse(post.date) <= Date.now())
 }
