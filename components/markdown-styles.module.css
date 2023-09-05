@@ -23,6 +23,11 @@
   margin: auto;
 }
 
+.markdown ul {
+  padding-left: 32px;
+  list-style-type: disc;
+}
+
 .markdown ol {
   padding-left: 32px;
   list-style-type: decimal;
