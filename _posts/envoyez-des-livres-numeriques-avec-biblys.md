@@ -2,7 +2,7 @@
 title: 'Envoyez des livres numériques avec Biblys'
 excerpt: 'Il est depuis longtemps possible d’envoyer des livres numériques avec Biblys. Cette fonctionnalité n’était toutefois pas exempte de défauts, que vient corriger la version 2.72 déployée début septembre sur les sites Biblys.'
 coverImage: '/assets/blog/envoyez-des-livres-numeriques-avec-biblys/cover.jpg'
-date: '2023-09-06T10:00:00Z'
+date: '2023-09-13T09:00:00+0200'
 author:
   name: 'Clément Latzarus'
   picture: '/assets/blog/authors/clement-latzarus.jpeg'

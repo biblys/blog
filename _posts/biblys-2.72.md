@@ -1,6 +1,6 @@
 ---
 title: 'Biblys 2.72'
-date: '2023-09-06T09:59:00Z'
+date: '2023-09-06T09:00:00+0200'
 author:
   name: 'Clément Latzarus'
   picture: '/assets/blog/authors/clement-latzarus.jpeg'

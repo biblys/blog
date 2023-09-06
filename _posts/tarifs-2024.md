@@ -2,7 +2,7 @@
 title: 'Tarifs 2024'
 excerpt: "Comme chaque année, avec le mois de septembre est venue l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentées ci-dessous sont applicables à partir du 1er janvier 2024."
 coverImage: '/assets/blog/tarifs-2024/cover.jpg'
-date: '2023-09-13T10:00:00Z'
+date: '2023-09-20T09:00:00+0200'
 author:
   name: 'Clément Latzarus'
   picture: '/assets/blog/authors/clement-latzarus.jpeg'
