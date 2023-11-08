@@ -17,9 +17,9 @@ Frais
 
 [Les frais prélevés par Stripe](https://stripe.com/fr/pricing) sur chaque commission sont parmi les plus intéressants du marché.
 
-- Paypal : 3,4 % + 0,25 € par transaction
-- Payplug : 1,6 % + 0,25 € par transaction + 10 € / mois
-- Stripe : 1,4 % + 0,25 € par transaction
+- Paypal : 3,4 % + 0,35 € par transaction
+- Payplug : 1,2 % + 0,25 € par transaction + 10 € / mois
+- Stripe : 1,5 % + 0,25 € par transaction
  
 Sur un chiffre d’affaire de 1000 € réparti en 50 commandes de 20 €, Stripe permet d’économiser 12 € par rapport à Payplug et 20 € par rapport à Paypal.
 
