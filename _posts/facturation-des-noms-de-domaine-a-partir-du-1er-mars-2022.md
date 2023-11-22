@@ -26,15 +26,13 @@ Votre nom de domaine est votre identité et le garant de votre réputation sur i
 
 Pour ces raisons, je pense qu&#039;il est important que les éditeur·trice·s et libraires qui sont mes client·e·s et non le prestataire, soit propriétaires de son leur de domaine. Dans le cas où vous souhaiteriez changer de prestataire, cette démarche sera très simplifié si vous êtes propriétaire du domaine, notamment dans l&#039;éventualité de mon décès ou de tout autre incident.
 
-###    
- Être propriétaire d&#039;un nom de domaine demande-t-il des compétences techniques ?
+### Être propriétaire d&#039;un nom de domaine demande-t-il des compétences techniques ?
 
 Aucune. C&#039;est un simple détail administratif (et financier). Une fois le transfert de propriété réalisé (démarche pour laquelle je me propose de vous accompagner), je vous expliquerai comment me donner un accès technique au domaine pour veiller à sa bonne configuration concernant Biblys. Je garde la main sur cet aspect-là, qui demeure compris dans l&#039;abonnement.
 
 Vous recevrez chaque année ensuite plusieurs rappels avant la date d&#039;expiration de de votre domaine pour vous inviter à le renouveler. Vous pouvez automatiser cette opération en enregistrant une carte bancaire ou un RIB.
 
-###    
- Pourquoi ne plus inclure le nom de domaine dans l&#039;abonnement Biblys ?
+### Pourquoi ne plus inclure le nom de domaine dans l&#039;abonnement Biblys ?
 
 L&#039;abonnement Biblys est calculé de manière à ce qu&#039;il couvre les frais techniques qu&#039;impliquent Biblys (dont notamment l&#039;hébergement des sites), sans que je perde de l&#039;argent (mais sans que j&#039;en gagne beaucoup non plus). Aujourd&#039;hui, cet équilibre est menacé et je dois donc envisager d&#039;augmenter le prix de l&#039;abonnement, ce que je n&#039;ai jamais fait depuis qu&#039;il a été fixé à 30 € en 2015.
 
@@ -42,13 +40,11 @@ Historiquement, le nom de domaine était bien inclus dans l&#039;abonnement Bibl
 
 Enfin, contrairement à l&#039;hébergement des sites qui peut être mutualisé pour faire réaliser des économies d&#039;échelle à mes client·e·s, le fait que je paie puis refacture les noms de domaine ne présente aucun intérêt : financièrement, c&#039;est une opération blanche et un chiffre d&#039;affaires sur lequel je dois payer des charges.
 
-###    
- Comment devenir propriétaire de mon nom de domaine Biblys ?
+### Comment devenir propriétaire de mon nom de domaine Biblys ?
 
 Pour commencer, je vous invite à commencer par créer un compte sur la plateforme Gandi (si ce n&#039;est pas déjà fait) à votre nom ou au nom de la structure qui sera propriétaire du nom de domaine, puis à me contacter pour démarrer la procédure.
 
-###    
- Comment serais-je facturé si je ne souhaite pas devenir propriétaire de mon nom de domaine ?
+### Comment serais-je facturé si je ne souhaite pas devenir propriétaire de mon nom de domaine ?
 
 Dans le cas d&#039;un abonnement mensuel, vous serez facturé 5 € TNR\* supplémentaires par mois et par domaine à partir de la facture du mois de mars 2022.   
  L&#039;abonnement Biblys mensuel passe donc à 35 € TNR\* avec un domaine.  
