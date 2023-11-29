@@ -40,6 +40,15 @@ de port**, que les tranches tarifaires correspondant gratuites correspondent à 
 Pour savoir comment configurer les frais de port de votre site en accord avec la loi Darcos, vous pouvez consulter
 l'article [Entrée en vigueur de la loi Darcos](https://blog.biblys.fr/posts/entree-en-vigueur-de-la-loi-darcos).
 
+## ✍️ Comment personnaliser les textes affichés ?
+
+Deux options supplémentaires permettent de personnaliser les textes affichés aux clients :
+
+- `free_shipping_invite_text` permet de configurer le texte invitant le client à ajouter des articles à son panier
+  lorsque le montant total de celui-ci est inférieur au montant cible (par défaut "Livraison offerte à partir de 35,00 € d'achat")
+- `free_shipping_success_text` permet de configurer le texte affiché au client lorsque le montant du panier atteint
+  ou dépasse le montant cible (par défaut "Vous bénéfiez de la livraison offerte !").
+
 ## 💡Améliorer Biblys
 
 Cette fonctionnalité a été développée en priorité parce qu'elle était la plus populaire sur le site 
