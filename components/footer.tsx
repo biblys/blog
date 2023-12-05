@@ -9,7 +9,7 @@ const Footer = () => {
           <h3 className="text-2xl lg:text-[1.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             Biblys est un outil e-commerce à destination des éditeurs indépendants,
             qui leur permet de vendre en ligne des livres papiers et
-            numériques sans aucun connaissance technique.
+            numériques sans aucune connaissance technique.
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
