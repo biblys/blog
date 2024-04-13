@@ -51,4 +51,4 @@ published: true
 
  A très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr),
 
- Clément Bourgoin
+ Clément

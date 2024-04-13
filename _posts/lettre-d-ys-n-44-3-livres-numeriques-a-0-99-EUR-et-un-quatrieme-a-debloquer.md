@@ -66,6 +66,6 @@ published: true
 
  Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr),
 
- Clément Bourgoin
+ Clément
 
  PS : J&#039;ai lu récemment [Un logique nommé Joe](http://www.biblys.fr/murray-leinster/un-logique-nomme-joe) de Murray Leinster, publié dans la collection Dyschroniques des éditions Le Passager clandestin, un livre étonnamment visionnaire qui décrit dans les années 40 un réseau informatique mondial qui ressemble fort à l&#039;Internet des années 2010. Surprenant ! [Mon avis détaillé](http://nokto.net/un-logique-nomme-joe-de-murray-leinster/).

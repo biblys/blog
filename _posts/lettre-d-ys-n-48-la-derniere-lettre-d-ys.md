@@ -50,4 +50,4 @@ Si l&#039;aventure vous intéresse, restons tout de même en contact : vous pouv
 
 Ainsi s&#039;achève la dernière Lettre d&#039;Ys, envoyée le 6 janvier 2016 à 5500 heureux élus. Il ne reste qu&#039;à vous souhaiter une excellente année 2016, pleines de lectures passionnantes et de belles découvertes !
 
-Clément Bourgoin
+Clément

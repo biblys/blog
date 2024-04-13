@@ -57,4 +57,4 @@ published: true
 
  A très bientôt sur les sites du réseau Biblys,
 
- Clément Bourgoin
+ Clément

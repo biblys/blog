@@ -88,4 +88,4 @@ Ainsi s’achève la 46ème Lettre d’Ys, envoyée le 23 janvier 2015 à 4466 f
 
 Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr), sur [Twitter](http://www.twitter.com/biblys) et sur [Facebook](https://www.facebook.com/biblys.fr) !
 
-[Clément Bourgoin](https://twitter.com/ClementBourgoin)
+Clément
