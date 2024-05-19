@@ -9,3 +9,16 @@ a {
 a:hover {
   color: #ff6600;
 }
+
+blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 16px;
+}
+
+blockquote p {
+  margin: 4px;
+}
+
+img + em {
+  font-size: 0.8rem;
+}
