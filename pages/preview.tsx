@@ -30,6 +30,7 @@ export default function Preview({ allPosts }: Props) {
               author={heroPost.author}
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
+              published={heroPost.published}
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}

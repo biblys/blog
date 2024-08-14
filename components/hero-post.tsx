@@ -3,6 +3,7 @@ import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
 import type Author from '../interfaces/author'
+import {DraftWarning} from "./draft-warning";
 
 type Props = {
   title: string
@@ -11,6 +12,7 @@ type Props = {
   excerpt: string
   author: Author
   slug: string
+  published: boolean
 }
 
 const HeroPost = ({
@@ -20,6 +22,7 @@ const HeroPost = ({
   excerpt,
   author,
   slug,
+  published,
 }: Props) => {
   return (
     <section className="max-w-4xl m-auto">
@@ -42,6 +45,7 @@ const HeroPost = ({
           <div className="mb-4 md:mb-0 text-lg">
           </div>
         </div>
+        {published || <DraftWarning/>}
         <div>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
           <div className="flex items-center gap-5">

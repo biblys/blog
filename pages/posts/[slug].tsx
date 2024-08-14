@@ -1,16 +1,16 @@
-import { useRouter } from 'next/router'
+import {useRouter} from 'next/router'
 import ErrorPage from 'next/error'
 import Container from '../../components/container'
 import PostBody from '../../components/post-body'
 import Header from '../../components/header'
 import PostHeader from '../../components/post-header'
 import Layout from '../../components/layout'
-import { getPostBySlug, getPublishedPosts } from '../../lib/api'
+import {getAllPosts, getPostBySlug} from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
-import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
+import {DraftWarning} from '../../components/draft-warning';
 
 type Props = {
   post: PostType
@@ -18,7 +18,7 @@ type Props = {
   preview?: boolean
 }
 
-export default function Post({ post, morePosts, preview }: Props) {
+export default function Post({ post, preview }: Props) {
   const router = useRouter()
   const title = `${post.title} | Le blog Biblys`
   if (!router.isFallback && !post?.slug) {
@@ -41,6 +41,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 {post.ogImage?.url ? <meta property="og:image" content={`https://blog.biblys.fr${post.ogImage.url}`} /> : null}
                 <meta property="og:author" content={post.author.name} />
               </Head>
+              {post.published || <DraftWarning/>}
               <PostHeader
                 title={post.title}
                 coverImage={post.coverImage}
@@ -71,6 +72,7 @@ export async function getStaticProps({ params }: Params) {
     'content',
     'ogImage',
     'coverImage',
+    'published',
   ])
   const content = await markdownToHtml(post.content || '')
 
@@ -85,7 +87,7 @@ export async function getStaticProps({ params }: Params) {
 }
 
 export async function getStaticPaths() {
-  const posts = getPublishedPosts(['slug', 'date', 'published'])
+  const posts = getAllPosts(['slug', 'date', 'published'])
 
   return {
     paths: posts.map((post) => {
