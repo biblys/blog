@@ -9,8 +9,8 @@ jobs:
   build-and-deploy:
     uses: clemlatz/build-and-deploy/.github/workflows/workflow.yml@main
     with:
-      build-output-directory: "out"
-      remote-target-path: "~/blog.biblys.org"
+      build-output-directory: dist
+      remote-target-path: ~/blog.biblys.org
     secrets:
       ssh-private-key: ${{ secrets.BIBLYS_ORG_SSH_PRIVATE_KEY }}
       ssh-remote-host: ${{ secrets.BIBLYS_ORG_SSH_HOST }}

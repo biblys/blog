@@ -1,0 +1,22 @@
+---
+import Social from "@/components/Social.astro";
+import config from "@/config/config.json";
+import menu from "@/config/menu.json";
+import social from "@/config/social.json";
+import {markdownify} from "@/lib/utils/textConverter";
+---
+
+<footer class="section bg-theme-dark">
+  <div class="container text-white text-lg">
+    <p>
+      Biblys est un logiciel libre à destination des éditeurs indépendants, qui leur permet de vendre en ligne des
+      livres papiers et numériques sans aucune connaissance technique.
+    </p>
+
+    <p class="mt-4">
+      <a class="p-2 text-primary hover:text-primary bg-white transition-all border-white border-2 rounded" href="https://biblys.fr">
+        En savoir plus
+      </a>
+    </p>
+  </div>
+</footer>
