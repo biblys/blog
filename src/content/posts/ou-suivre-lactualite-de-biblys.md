@@ -7,7 +7,7 @@ date: 2025-01-15T07:00:00Z
 
 En janvier 2025, Biblys va quitter les réseaux sociaux Facebook et Twitter.
 
-Voici d'autres moyens de suivre son actualités, être informé des évolutions fonctionnelles et découvrir des conseils
+Voici d'autres moyens de suivre son actualité, être informé·e de ses évolutions fonctionnelles et découvrir des conseils
 pour utiliser Biblys au mieux :
 
 - Le présent blog et [son flux RSS](/rss.xml)
