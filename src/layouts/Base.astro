@@ -38,6 +38,9 @@ export interface Props {
 // distructure frontmatters
 const { title, meta_title, description, image, noindex, canonical } =
   Astro.props;
+
+const titleFromProps = plainify(meta_title ? meta_title : title ? title : '');
+const pageTitle = titleFromProps ? `${titleFromProps} · ${config.site.title}` : config.site.title;
 ---
 
 <!doctype html>
@@ -100,7 +103,7 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- title -->
     <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title)}
+      {pageTitle}
     </title>
 
     <!-- canonical url -->
