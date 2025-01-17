@@ -3,6 +3,7 @@ title: Où suivre l'actualité de Biblys
 excerpt: En janvier 2025, Biblys va quitter les réseaux sociaux Facebook et Twitter.
 image: /assets/blog/ou-suivre-l-actualite-de-biblys.jpg
 date: 2025-01-15T07:00:00Z
+published: true
 ---
 
 En janvier 2025, Biblys va quitter les réseaux sociaux Facebook et Twitter.

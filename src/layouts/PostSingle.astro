@@ -10,11 +10,15 @@ const posts = await getSinglePage("posts");
 const {post} = Astro.props;
 const similarPosts = similarItems(post, posts, post.slug);
 const {Content} = await post.render();
-const {title, image, date} = post.data;
-
+const {title, image, date, published} = post.data;
 ---
 
 <section class="section">
+  {published !== true &&
+    <div class="bg-orange-500 text-white text-center p-2 sticky top-0 mb-6">
+      Cet article est un brouillon qui est susceptible d'être modifié d'ici sa publication définitive.
+    </div>
+  }
   <div class="container">
     <article class="row justify-center">
       <div class="md:col-10 text-center">
