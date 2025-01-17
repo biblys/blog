@@ -7,13 +7,12 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
 
 const posts = await getSinglePage("posts");
-const publishedPosts = posts.filter(post => post.data.published);
-const sortedPosts = sortByDate(publishedPosts);
+const sortedPosts = sortByDate(posts);
 const totalPages = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
-<Base>
+<Base title="Preview">
   <section class="section">
     <div class="container">
       <Posts posts={currentPosts} className="mb-16" />
