@@ -9,7 +9,7 @@ published: false
 En 2024, Biblys est devenu un logiciel libre, et a permis à quatorze librairies et maisons d’édition indépendantes de
 vendre :
 
-- 25272 livres
+- 25.272 livres
 - à 3579 client·es uniques
 - pour un chiffre d’affaires total de 339.074 € !
 
@@ -18,7 +18,9 @@ dépassent mêle celui des années Covid. Et si l’augmentation du chiffre d’
 impartie imputée à l’inflation, je suis heureux de voir que Biblys permet à toujours plus de livres d’atteindre leur
 lecteur·ices, avec notamment l’ouverture de trois nouveaux sites de maisons d’édition en 2024 !
 
-![Livres vendus grâce à Biblys (2011-2024).svg](https://prod-files-secure.s3.us-west-2.amazonaws.com/22c18de6-3d24-4aa2-916c-4fa949480534/c007be32-8754-4328-a481-e790830e23cc/Livres_vendus_grace_a_Biblys_(2011-2024).svg)
+![Un graphique représentant l'évolution des ventes annuelles, de 4221 en 2011 à 25272 en 2024](/assets/blog/bilan-2024-et-perspectives-2025/livres-vendus-grace-a-biblys.svg)
+
+Au total, plus de 250.000 livres ont été vendus grâce à Biblys depuis sa création en 2008.
 
 ## Bilan 2024
 
@@ -43,7 +45,7 @@ ont choisi de passer à Biblys :
 Dans le cas des Forges de Vulcain, je suis particulièrement heureux d’avoir pu travailler avec le graphiste Quentin
 Chapelain pour produire un habillage très graphique aux couleurs de la maison.
 
-![Capture d’écran 2025-01-17 à 13.55.03.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/22c18de6-3d24-4aa2-916c-4fa949480534/d7ea304b-d58a-44dc-af2a-f8ed1131f6af/Capture_decran_2025-01-17_a_13.55.03.png)
+![La page d'accueil du site des éditions Aux forges de Vulcain](/assets/blog/bilan-2024-et-perspectives-2025/aux-forges-de-vulcain.png)
 
 Quant au site de l’association Flatland, il a été ouvert dans l’urgence pour remplacer un précédent site défectueux, et
 le site devrait être habillé définitivement avant printemps. Mais grâce à l’habillage de base fourni avec Biblys, il est
@@ -55,11 +57,11 @@ Depuis le 30 octobre
 dernier, [Biblys est désormais un logiciel libre](https://blog.biblys.org/posts/biblys-est-desormais-un-logiciel-libre/) !
 C’est une grande fierté pour et l’aboutissement de longs chantiers commencés il y a sept ans.
 
-Je ne reviens par que cette aventure à laquelle j’ai déjà consacré un long billet, mais je redis tout de même ce que
+Je ne reviens par sur cette aventure à laquelle j’ai déjà consacré un long billet, mais je redis tout de même ce que
 cela signifie : désormais, tout le monde peut télécharger, installer, modifier et utiliser Biblys librement et
 gratuitement, même sans passer par moi !
 
-![Capture d’écran 2025-01-17 à 16.27.55.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/22c18de6-3d24-4aa2-916c-4fa949480534/344756b2-09ca-48f7-8cf5-430c8f3e49a9/Capture_decran_2025-01-17_a_16.27.55.png)
+![Le dépôt Github de Biblys](/assets/blog/bilan-2024-et-perspectives-2025/biblys-sur-github.png)
 
 Le code de Biblys, distribué sous license AGLP-v3, est [disponible sur GitHub](https://github.com/biblys/biblys).
 
@@ -69,7 +71,7 @@ Fin 2024, je suis passé, pour les sites que je gérais d’un modèle très cen
 étaient hébergés sur un unique serveur géré par moi et partageaient leur base de données, pour aller vers un modèle où
 chaque site dispose de son hébergement et sa base de données isolés.
 
-![Sans-titre-2024-12-14-1558.svg](https://prod-files-secure.s3.us-west-2.amazonaws.com/22c18de6-3d24-4aa2-916c-4fa949480534/72b4c862-77f9-4949-a330-82bb6957dafd/Sans-titre-2024-12-14-1558.svg)
+![Un schéma montrant un ensemble de Biblys tous reliés au même serveur et à la même base de données](/assets/blog/bilan-2024-et-perspectives-2025/infrastructure-avant.svg)
 
 Outre les gains en termes de performances, de sécurité et de protection des données personnelles, cela permet à mes
 client·es de récupérer la propriété de leur hébergement.
@@ -77,7 +79,7 @@ client·es de récupérer la propriété de leur hébergement.
 L’intérêt est double : en payant directement l’hébergement, mes client·es paient moins cher que si je dois le prendre en
 leur nom et le refacturer, et s’il devait m’arriver quelque chose, leur site ne disparaîtrait pas avec moi.
 
-![Sans-titre-2024-12-14-1558-2.svg](https://prod-files-secure.s3.us-west-2.amazonaws.com/22c18de6-3d24-4aa2-916c-4fa949480534/1b9b8745-336d-450b-88a3-56b3ca65166b/Sans-titre-2024-12-14-1558-2.svg)
+![Un schéma montrant un ensemble de Biblys reliés chacun à leur propre serveur et à leur propre base de données](/assets/blog/bilan-2024-et-perspectives-2025/infrastructure-aujourdhui.svg)
 
 Le seul est inconvénient est qu’avec l’ancien fonctionnement, les librairies pouvaient profiter des données
 bibliographiques fournies par les éditeurs pour leur site. Ce n’est plus le cas, mais le sujet du partage libre des
@@ -133,7 +135,7 @@ Un pré-requis pour permettre d’afficher ces pages avec de nombreux éléments
 commencer à y travailler et à l’expérimenter sur la page d’accueil de la Librairie Scylla, qui est passée d’un temps de
 chargement moyen de 1,5 secondes à seulement… 150 milisecondes !
 
-![Capture d’écran 2025-01-17 à 17.41.46.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/22c18de6-3d24-4aa2-916c-4fa949480534/ba2fe84f-93d0-4dca-8adb-b47fd87cd0c8/Capture_decran_2025-01-17_a_17.41.46.png)
+![Un graphique montant une nette améloration des performances](/assets/blog/bilan-2024-et-perspectives-2025/performances-scylla.png)
 
 ### L’échange de données bibliographiques
 
@@ -141,7 +143,7 @@ Lorsque les sites Biblys partageaient tous la même base de données, les librai
 bibliographiques, a priori riches et de qualité, crées par les maisons d’édition gérant leur catalogue avec Biblys… Ce
 n’est plus cas aujourd’hui.
 
-[J’en parle depuis longtemps](https://blog.biblys.org/posts/bilan-de-l-annee-2016/#:~:text=Biblys%20Data%20Server)
+[J’en parle depuis longtemps](https://blog.biblys.org/posts/bilan-2015-et-perspectives-2016/#:~:text=Biblys%20open%20data)
 et [j’ai même déjà expérimenté](https://github.com/biblys/biblys-data-server) sur le sujet : j’aimerais permettre à tous
 les sites, qu’il soit propulsés par Biblys ou non, d’échanger facilement des données bibliographiques, et permettre aux
 petites structures d’être moins dépendantes de grosses bases de données commerciales.
@@ -165,10 +167,10 @@ manuscrits réceptionnés correspondent bien à la ligne éditoriale de la maiso
 Il y a longtemps que je veux revoir le site de présentation un peu vieillot de Biblys. La disponibilité de Biblys en
 open source qui, j’espère, aidera à faire connaitre le logiciel, est l’occasion idéale !
 
-J’ai commencé à travailler sur ce nouveau site et j’espère pouvoir vous le présenter prochainement. En attendant voici
+J’ai commencé à travailler sur ce nouveau site et j’espère pouvoir vous le présenter prochainement. En attendant, voici
 un aperçu.
 
-![Capture d’écran 2025-01-17 à 17.58.32.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/22c18de6-3d24-4aa2-916c-4fa949480534/76e5a6f6-3095-4bd8-8656-f44592b259c1/Capture_decran_2025-01-17_a_17.58.32.png)
+![La page d'accueil du nouveau site vitrine](/assets/blog/bilan-2024-et-perspectives-2025/nouveau-site-vitrine.png)
 
 ## En conclusion
 
