@@ -4,20 +4,14 @@ import SimilarPosts from "@/components/SimilarPosts.astro";
 import {getSinglePage} from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import similarItems from "@/lib/utils/similarItems";
-import {markdownify, slugify} from "@/lib/utils/textConverter";
+import {markdownify} from "@/lib/utils/textConverter";
 
-const allAuthors = await getSinglePage("authors");
 const posts = await getSinglePage("posts");
 const {post} = Astro.props;
 const similarPosts = similarItems(post, posts, post.slug);
 const {Content} = await post.render();
 const {title, image, date} = post.data;
 
-const authors = [{
-  data: {
-    title: 'Clément Latzarus',
-  }
-}];
 ---
 
 <section class="section">
