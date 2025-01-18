@@ -1,6 +1,6 @@
 ---
 title: Bilan 2023 et perspectives 2024
-excerpt: En 2023, Biblys a soufflé sa quinzième bougie, et permis à douze librairies et maisons d’édition indépendantes de vendre 21422 livres, à 3917 client·e·s uniques pour un chiffre d’affaires total de 299.286 € !
+excerpt: En 2023, Biblys a soufflé sa quinzième bougie, et permis à douze librairies et maisons d’édition indépendantes de vendre 21432 livres, à 3917 client·e·s uniques pour un chiffre d’affaires total de 299.286 € !
 date: 2024-01-10T08:00:00Z
 author:
   name: Clément Latzarus
@@ -11,15 +11,12 @@ ogImage:
 published: true
 ---
 
-En 2023, Biblys a soufflé sa quinzième bougie, et permis à douze librairies et maisons d’édition indépendantes de vendre
-21422 livres, à 3917 client·e·s uniques pour un chiffre d’affaires total de 299.286 € !
-
 ## Bilan 2023
 
 En 2023, Biblys a soufflé sa quinzième bougie, et permis à douze librairies et maisons d’édition indépendantes de
 vendre :
 
-- 21422 livres
+- 21432 livres
 - à 3917 client·e·s uniques
 - pour un chiffre d’affaires total de 299.286 € !
 
