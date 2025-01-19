@@ -10,8 +10,8 @@ import config from "./src/config/config.json";
 import umami from "@yeskunall/astro-umami";
 
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
-  base: config.site.base_path ? config.site.base_path : "/",
+  site: "https://blog.biblys.org/",
+  base: "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {},
   integrations: [
@@ -34,7 +34,21 @@ export default defineConfig({
       ],
     }),
     mdx(),
-    umami({id :'984d1210-a376-4349-aa2f-83fab030a249' })
+    umami({id :'984d1210-a376-4349-aa2f-83fab030a249' }),
+    sitemap({
+      filter: (page) => page !== 'https://blog.biblys.org/preview',
+      changefreq: 'monthly',
+      priority: 0.7,
+      serialize(item) {
+        if (item.url === 'https://blog.biblys.org/') {
+          item.changefreq = 'weekly';
+          item.lastmod = new Date().toISOString();
+          item.priority = 1;
+        }
+        return item;
+      },
+    }),
+
   ],
   markdown: {
     remarkPlugins: [
