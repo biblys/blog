@@ -26,7 +26,7 @@ Après quatre éditions chez différentes maisons depuis la première en 1968, t
 
 ### Alertes, le retour
 
-Elles avaient été désactivées pendant la phase de transition Ys/Scylla, mais les revoilà ! Les alertes vous avertissent par courriel dès que l&#039;un des livres que vous recherchez est disponible dans une des librairies Biblys. Elles proposent de plus de nouveaux critères pour n&#039;être averti que si certaines conditions sont remplies : année d&#039;édition, état (neuf ou occasion), prix maximum, etc. Vous pouvez voir et modifier vos alertes actuelles depuis la page [Mes alertes](http://www.biblys.fr/pages/log_myalerts) et les créer depuis les fiches livres concernées.
+Elles avaient été désactivées pendant la phase de transition Ys/Scylla, mais les revoilà ! Les alertes vous avertissent par courriel dès que l&#039;un des livres que vous recherchez est disponible dans une des librairies Biblys. Elles proposent de plus de nouveaux critères pour n&#039;être averti que si certaines conditions sont remplies : année d&#039;édition, état (neuf ou occasion), prix maximum, etc. Vous pouvez voir et modifier vos alertes actuelles depuis la page Mes alertes et les créer depuis les fiches livres concernées.
 
 [En savoir plus](http://www.biblys.fr/blog/alertes-biblys-le-retour) (sur le blog Biblys)
 

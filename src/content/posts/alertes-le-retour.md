@@ -14,7 +14,7 @@ Par défaut, le créateur de l&#039;alerte sera ensuite averti dès que le livre
 
 ![](http://www.biblys.fr/biblys/media/blog/alertes_2.png)
 
-Les utilisent reçoivent ensuite chaque vendredi soir un récapitulatif des livres pour lesquels ils ont créés des alertes qui sont disponibles. S&#039;ils achètent le livre, l&#039;alerte est supprimée automatiquement. Ils peuvent également gérer leurs alertes depuis la page [Mes alertes](/pages/log_myalerts).
+Les utilisent reçoivent ensuite chaque vendredi soir un récapitulatif des livres pour lesquels ils ont créés des alertes qui sont disponibles. S&#039;ils achètent le livre, l&#039;alerte est supprimée automatiquement. Ils peuvent également gérer leurs alertes depuis la page Mes alertes.
 
 **Pour les curieux, voici le top 10 des livres les plus recherchés aujourd&#039;hui sur Biblys :**
 

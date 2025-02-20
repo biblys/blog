@@ -12,7 +12,7 @@ Il est depuis longtemps possible d’envoyer des livres numériques avec Biblys.
 
 En fait d’envoi, il s’agit en réalité d’ajout à la bibliothèque numérique du lecteur qui, averti par courriel, peut y accéder de manière sécurisée sur le site de l’éditeur. Il peut ensuite télécharger le livre dans le format de son choix et à volonté, y compris lors d’éventuelles mises à jour des fichiers.
 
-Cette fonctionnalité n’était toutefois pas exempte de défauts, que vient corriger **[la version 2.72](/posts/biblys-2.72) qui sera déployée début septembre sur les sites Biblys**.
+Cette fonctionnalité n’était toutefois pas exempte de défauts, que vient corriger **la version 2.72 qui sera déployée début septembre sur les sites Biblys**.
 
 ## 💌 Invitations de téléchargement
 
