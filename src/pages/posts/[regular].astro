@@ -24,6 +24,9 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 const { title, meta_title, description, image } = page.data;
+
+const canonicalUrl = `${Astro?.site.origin}/posts/${page.slug}`;
+
 ---
 
 <Base
@@ -31,6 +34,7 @@ const { title, meta_title, description, image } = page.data;
   meta_title={meta_title}
   description={description}
   image={image}
+  canonical={canonicalUrl}
 >
   {
     postsSlug.includes(page.slug) ? (
