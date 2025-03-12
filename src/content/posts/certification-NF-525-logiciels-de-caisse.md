@@ -1,6 +1,6 @@
 ---
 title: Comment l'obligation de certification des logiciels de caisse (NF525) affecte Biblys
-excerpt: La loi pour les finances 2025 fait évoluer l'obligation de certification des logiciels de caisse (norme NF525). Quelles sont les conséquences pour Biblys&nbsp;?
+excerpt: La loi pour les finances 2025 fait évoluer l'obligation de certification des logiciels de caisse (norme NF525). Quelles sont les conséquences pour Biblys ?
 date: 2025-03-12T08:00:00Z
 image: /assets/blog/certification-NF-525-logiciels-de-caisse.jpg
 published: true
