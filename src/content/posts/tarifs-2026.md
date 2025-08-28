@@ -8,7 +8,7 @@ author:
   picture: /assets/blog/authors/clement-latzarus.jpeg
 ogImage:
   url: /assets/blog/tarifs-2026.jpg
-published: false
+published: true
 ---
 
 Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les
